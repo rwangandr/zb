@@ -1,0 +1,59 @@
+
+
+
+
+https://oapi.dingtalk.com/user/list?access_token=b5c150ac36543a7facec865b16d6b46a&department_id=1
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "userlist": [
+        {
+            "active": true,
+            "avatar": "",
+            "department": [
+                1
+            ],
+            "dingId": "$:LWCP_v1:$yvIoRrJqKzKMAJeuu79Vyw==",
+            "isAdmin": false,
+            "isBoss": false,
+            "isHide": false,
+            "isLeader": false,
+            "jobnumber": "025101124020362667",
+            "mobile": "13920854346",
+            "name": "何晓莉",
+            "openId": "kh7nzPxpycEqsCja914jbAiEiE",
+            "order": 89292418973080110,
+            "position": "",
+            "userid": "025101124020362667"
+        },
+        {
+            "active": true,
+            "avatar": "",
+            "department": [
+                1
+            ],
+            "dingId": "$:LWCP_v1:$V4VD9HWtcS+Wgk1u5p23eQ==",
+            "isAdmin": true,
+            "isBoss": false,
+            "isHide": false,
+            "isLeader": false,
+            "jobnumber": "01483269252699",
+            "mobile": "15522850688",
+            "name": "王晖",
+            "openId": "J49wnEbgKcYqsCja914jbAiEiE",
+            "order": 17718796632898936,
+            "userid": "01483269252699"
+        }
+    ]
+}
+
+
+{
+    "touser": "01483269252699",
+    "toparty": "1",
+    "agentid": "46061397",
+    "msgtype": "text",
+    "text": {
+        "content": "yes"
+    }
+}
